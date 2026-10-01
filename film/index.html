@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scorpion Bits — Filme</title>
+<style>
+  @font-face { font-family: "SG"; src: url("fonts/SpaceGrotesk-VF.woff2") format("woff2"); font-weight: 300 700; }
+  @font-face { font-family: "IN"; src: url("fonts/Inter-VF.woff2") format("woff2"); font-weight: 100 900; }
+  @font-face { font-family: "JB"; src: url("fonts/JetBrainsMono-Medium.ttf"); font-weight: 100 900; }
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+  body { display: grid; place-items: center; }
+  canvas { width: min(100vw, calc(100vh * 16 / 9)); height: auto; aspect-ratio: 16 / 9; display: block; }
+  #play { position: fixed; inset: 0; display: grid; place-items: center; cursor: pointer;
+    font: 500 14px/1 "JB", monospace; letter-spacing: .2em; color: #eef5fb; background: rgba(5,9,15,.6); }
+  body.render #play { display: none; }
+</style>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<div id="play">▶ CLIQUE PARA ASSISTIR COM SOM</div>
+<script src="timeline.js"></script>
+<script src="core.js"></script>
+<script src="ch01.js"></script>
+<script src="ch02.js"></script>
+<script src="ch03.js"></script>
+<script src="ch04.js"></script>
+<script src="ch05.js"></script>
+<script src="ch06.js"></script>
+<script src="ch07.js"></script>
+<script src="ch08.js"></script>
+<script src="ch09.js"></script>
+<script src="ch10.js"></script>
+<script src="film.js"></script>
+</body>
+</html>
