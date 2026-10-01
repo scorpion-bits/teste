@@ -1,3 +1,12 @@
+# Procedural motion films
+
+| Film | Length | Folder |
+|---|---|---|
+| **[Scorpion Bits: brand film](film/README.md)** ▶ [`scorpionbits-film.mp4`](scorpionbits-film.mp4) | 5:00 · 1080p30 | [`film/`](film/) |
+| **Motion Reel 2026** ▶ [`showreel.mp4`](showreel.mp4) | 0:15 · 1080p60 | [`reel/`](reel/) |
+
+---
+
 # Motion Reel 2026
 
 A 15-second motion-graphics showreel, built entirely in code.
