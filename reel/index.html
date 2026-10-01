@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Motion Reel 2026</title>
+<style>
+  @font-face { font-family: "UB"; src: url("fonts/Unbounded-Black.ttf"); font-weight: 900; }
+  @font-face { font-family: "UL"; src: url("fonts/Unbounded-Light.ttf"); font-weight: 300; }
+  @font-face { font-family: "SG"; src: url("fonts/SpaceGrotesk-Medium.ttf"); font-weight: 500; }
+  @font-face { font-family: "JB"; src: url("fonts/JetBrainsMono-Medium.ttf"); font-weight: 500; }
+  @font-face { font-family: "IS"; src: url("fonts/InstrumentSerif-Italic.ttf"); font-style: italic; }
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+  body { display: grid; place-items: center; }
+  canvas { width: min(100vw, calc(100vh * 16 / 9)); height: auto; aspect-ratio: 16 / 9; display: block; }
+  #play {
+    position: fixed; inset: 0; display: grid; place-items: center; cursor: pointer;
+    font: 500 14px/1 "JB", monospace; letter-spacing: .2em; color: #F2EFE9; background: rgba(0,0,0,.55);
+  }
+  body.render #play { display: none; }
+</style>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<div id="play">▶ CLICK TO PLAY WITH SOUND</div>
+<script src="reel.js"></script>
+</body>
+</html>
