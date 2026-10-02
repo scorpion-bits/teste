@@ -2,6 +2,7 @@
 
 | Film | Length | Folder |
 |---|---|---|
+| **[Scorpion Bits: ident](ident/README.md)** ▶ [`scorpionbits-ident.mp4`](scorpionbits-ident.mp4) · [30 fps](scorpionbits-ident-30fps.mp4) · [sonic logo](ident/sonic-logo.wav) | 0:10 · 1080p60 | [`ident/`](ident/) |
 | **[Scorpion Bits: brand film](film/README.md)** ▶ [`scorpionbits-film.mp4`](scorpionbits-film.mp4) | 5:00 · 1080p30 | [`film/`](film/) |
 | **Motion Reel 2026** ▶ [`showreel.mp4`](showreel.mp4) | 0:15 · 1080p60 | [`reel/`](reel/) |
 

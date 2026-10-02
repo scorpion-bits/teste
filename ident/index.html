@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scorpion Bits — Ident</title>
+<style>
+  @font-face { font-family: 'SG'; src: url('fonts/grotesk-latin.woff2') format('woff2'); font-weight: 300 700; }
+  html, body { margin: 0; height: 100%; background: #05090f; }
+  body { display: grid; place-items: center; overflow: hidden; }
+  canvas { width: min(100vw, 177.78vh); height: auto; display: block; }
+  #play { position: fixed; inset: 0; margin: auto; width: 84px; height: 84px; border-radius: 50%; border: 1px solid #6ad8fe55;
+          background: #05090fcc; color: #d6f4ff; font: 500 15px/1 'SG', sans-serif; letter-spacing: .12em; cursor: pointer; }
+</style>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<button id="play">PLAY</button>
+<script src="geometry.js"></script>
+<script src="timeline.js"></script>
+<script src="ident.js"></script>
+</body>
+</html>
